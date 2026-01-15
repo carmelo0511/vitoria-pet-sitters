@@ -31,9 +31,21 @@ const About = () => {
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Larissa Brandino - Pet Sitter Profissional
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-8">
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               Sou Médica Veterinária de formação e ofereço serviços de Pet Sitting há mais de 10 anos. Vou até sua casa cuidar do seu bichinho com todo carinho e atenção que ele merece, garantindo que você tenha tranquilidade durante sua viagem.
             </p>
+            <div className="mb-8 p-4 bg-secondary/30 rounded-lg border-l-4 border-secondary">
+              <p className="text-foreground font-semibold mb-2 flex items-center gap-2">
+                <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                Áreas de Atendimento
+              </p>
+              <p className="text-muted-foreground">
+                Atendo em <span className="font-semibold text-foreground">Vitória</span>, <span className="font-semibold text-foreground">Vila Velha</span> e <span className="font-semibold text-foreground">Cariacica</span> - ES
+              </p>
+            </div>
 
             <ul className="space-y-4 mb-8">
               {features.map((feature, index) => (

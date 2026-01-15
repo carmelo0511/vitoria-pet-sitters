@@ -11,7 +11,7 @@ const Footer = () => {
 
   const contactInfo = [
     { icon: Phone, text: "(27) 99263-2281" },
-    { icon: MapPin, text: "Vitória, ES - Brasil" },
+    { icon: MapPin, text: "Vitória, Vila Velha e Cariacica - ES" },
   ];
 
   return (
