@@ -12,23 +12,23 @@
 
 @layer base {
   :root {
-    /* Warm golden yellow palette for pet care */
+    /* Teal palette matching promotional materials */
     --background: 0 0% 100%;
-    --foreground: 265 4% 12.9%;
+    --foreground: 180 10% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 265 4% 12.9%;
+    --card-foreground: 180 10% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 265 4% 12.9%;
+    --popover-foreground: 180 10% 15%;
 
-    /* Golden yellow primary */
-    --primary: 266 4% 20.8%;
-    --primary-foreground: 248 0.3% 98.4%;
+    /* Teal primary - vibrant teal from promotional materials */
+    --primary: 175 85% 23%;
+    --primary-foreground: 0 0% 100%;
 
-    /* Teal secondary */
-    --secondary: 248 0.7% 96.8%;
-    --secondary-foreground: 266 4% 20.8%;
+    /* Teal secondary - lighter teal */
+    --secondary: 175 60% 45%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 248 0.7% 96.8%;
     --muted-foreground: 257 4.6% 55.4%;

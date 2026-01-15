@@ -40,7 +40,7 @@ const Testimonials = () => {
             O que nossos clientes dizem
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Conheça as experiências de tutores que confiaram seus pets à PetCare.
+            Conheça as experiências de tutores que confiaram seus pets à Larissa Brandino.
           </p>
         </motion.div>
 

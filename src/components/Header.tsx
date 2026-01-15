@@ -20,7 +20,7 @@ const Header = () => {
         <a href="#" className="flex items-center gap-2 group">
           <PawPrint className="h-7 w-7 text-secondary transition-transform group-hover:rotate-12" />
           <span className="font-display text-2xl font-bold text-foreground">
-            PetCare
+            Larissa Brandino
           </span>
         </a>
 

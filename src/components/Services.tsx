@@ -5,21 +5,21 @@ import trainingImg from "@/assets/training.jpg";
 
 const services = [
   {
-    title: "Passeios",
-    description:
-      "Mantenha seu cãozinho ativo com passeios personalizados que atendem ao nível de energia e preferências dele.",
-    image: dogWalkingImg,
-  },
-  {
     title: "Pet Sitting",
     description:
-      "Confie em nossos cuidadores experientes para oferecer atenção personalizada em casa para seus amigos peludos.",
+      "Cuidados no conforto do seu lar para cães, gatos e pets não convencionais. Vou até sua casa cuidar do seu bichinho com atenção e carinho.",
     image: petSittingImg,
   },
   {
-    title: "Adestramento",
+    title: "Relatórios Completos",
     description:
-      "Ajude seus pets a superar desafios com programas de treinamento personalizados para suas necessidades.",
+      "Relatórios diários com áudio, fotos e vídeos para você acompanhar como está seu pet mesmo longe de casa.",
+    image: dogWalkingImg,
+  },
+  {
+    title: "Tratamento Especializado",
+    description:
+      "Como Médica Veterinária de formação, ofereço tratamento especializado e cuidados adaptados às necessidades do seu pet.",
     image: trainingImg,
   },
 ];

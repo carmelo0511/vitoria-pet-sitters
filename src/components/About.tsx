@@ -1,12 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { PawPrint } from "lucide-react";
+// Import your personal photos - replace with actual image paths when you add them
+// import larissaWithHusky from "@/assets/larissa-husky.jpg";
+// import larissaWithCat from "@/assets/larissa-cat.jpg";
 import happyDogImg from "@/assets/happy-dog.jpg";
 
 const features = [
-  "Planos de cuidado personalizados para as necessidades do seu pet.",
-  "Profissionais treinados e dedicados ao bem-estar do seu animal.",
-  "Tranquilidade sabendo que seus pets estão em mãos confiáveis.",
+  "Cuidados no conforto do seu lar para cães, gatos e pets não convencionais.",
+  "Médica Veterinária de formação com tratamento especializado.",
+  "Mais de 10 anos de experiência com cuidados animais.",
+  "Disponibilidade em tempo integral para atender seu pet.",
+  "Relatório completo com áudio, fotos e vídeos diários.",
 ];
 
 const About = () => {
@@ -21,13 +26,13 @@ const About = () => {
             transition={{ duration: 0.6 }}
           >
             <span className="text-secondary font-semibold tracking-[0.2em] text-sm mb-4 block uppercase">
-              SOBRE NÓS
+              SOBRE MIM
             </span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Oferecendo cuidados pet confiáveis em Vitória
+              Larissa Brandino - Pet Sitter Profissional
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Na PetCare Vitória, oferecemos soluções de cuidados 24/7 adaptadas às suas necessidades. Nossa equipe de profissionais altamente qualificados entrega serviço de primeira qualidade.
+              Sou Médica Veterinária de formação e ofereço serviços de Pet Sitting há mais de 10 anos. Vou até sua casa cuidar do seu bichinho com todo carinho e atenção que ele merece, garantindo que você tenha tranquilidade durante sua viagem.
             </p>
 
             <ul className="space-y-4 mb-8">

@@ -16,10 +16,10 @@ const CTA = () => {
             CUIDE DO SEU PET
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-            Eleve os cuidados do seu pet
+            Vai viajar? Conte comigo!
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
-            Pronto para dar ao seu amigo peludo o melhor cuidado possível? A PetCare Vitória oferece serviços premium adaptados às suas necessidades.
+            Para mais informações sobre meus serviços de Pet Sitting, entre em contato via WhatsApp ou Instagram. Estou pronta para cuidar do seu bichinho no conforto do seu lar!
           </p>
           <Button variant="cta" size="lg" className="rounded-full">
             Entre em Contato
