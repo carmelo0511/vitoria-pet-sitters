@@ -16,9 +16,9 @@ const Footer = () => {
   ];
 
   return (
-    <footer id="contact" className="bg-foreground text-card py-16">
-      <div className="container">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+    <footer id="contact" className="py-8 px-4 md:px-8 bg-background">
+      <div className="bg-foreground rounded-2xl text-card py-16 px-6 md:px-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 max-w-7xl mx-auto">
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-4 group">
@@ -28,9 +28,9 @@ const Footer = () => {
               </span>
             </a>
             <p className="text-card/70 leading-relaxed mb-6 max-w-md">
-              Seu parceiro de confiança em soluções de cuidados pet. Serviços personalizados para pets felizes e tutores satisfeitos. Entre em contato para consultas e agendamentos.
+              Seu parceiro de confiança em soluções de cuidados pet. Serviços personalizados para pets felizes e tutores satisfeitos.
             </p>
-            <Button variant="default" size="lg">
+            <Button variant="cta" size="lg" className="rounded-full">
               Agendar Visita
             </Button>
           </div>
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-card/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-card/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 max-w-7xl mx-auto">
           <p className="text-card/50 text-sm">
             © 2026 PetCare Vitória. Todos os direitos reservados.
           </p>
