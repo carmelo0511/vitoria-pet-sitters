@@ -4,48 +4,39 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   return (
-    <section
-      id="hero"
-      className="relative min-h-screen flex items-center pt-20"
-    >
-      {/* Background Image */}
+    <section id="hero" className="pt-24 pb-8 px-4 md:px-8 bg-background">
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
+        className="relative min-h-[600px] md:min-h-[700px] rounded-2xl overflow-hidden flex items-center"
+        style={{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/40" />
 
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 hero-gradient" />
+        {/* Content */}
+        <div className="relative z-10 px-8 md:px-16 lg:px-24 py-16">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="max-w-xl"
+          >
+            <span className="text-secondary font-semibold tracking-[0.2em] text-sm mb-4 block uppercase">
+              Cuidado com Amor
+            </span>
 
-      {/* Content */}
-      <div className="container relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-2xl"
-        >
-          <span className="section-badge text-primary mb-4 block">
-            CUIDADO COM AMOR
-          </span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white leading-tight mb-6">
+              Seu parceiro de confiança em cuidados pet
+            </h1>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-card leading-tight mb-6">
-            Seu parceiro de confiança em cuidados pet
-          </h1>
+            <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-lg">
+              Entendemos as necessidades do seu companheiro peludo, do seu orçamento e da sua tranquilidade.
+            </p>
 
-          <p className="text-lg md:text-xl text-card/90 mb-8 leading-relaxed max-w-xl">
-            Entendemos as necessidades do seu companheiro peludo, do seu orçamento e da sua tranquilidade. Serviços premium de pet sitting em Vitória - ES.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="lg">
-              Agende uma Visita
+            <Button variant="cta" className="rounded-full px-8 py-3">
+              Entre em Contato
             </Button>
-            <Button variant="heroOutline" size="lg">
-              Conheça Nossos Serviços
-            </Button>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );
