@@ -4,21 +4,21 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "Os serviços de passeio da PetCare foram uma salvação para mim. Viajo muito e eles cuidam do meu cachorro perfeitamente. A atenção e carinho são incomparáveis.",
-    author: "Maria Clara",
-    role: "Tutora de Golden Retriever",
+      "Muito obrigada, Larissa, por cuidar tão bem das minhas preciosidades!! Você é uma cat(pet)sitter sensacional ❤️",
+    author: "brunellabonde",
+    role: "Tutora",
   },
   {
     quote:
-      "O programa de adestramento da PetCare transformou o comportamento do meu pet. Não poderia estar mais feliz com os resultados! A expertise e dedicação deles fizeram toda diferença.",
-    author: "Pedro Santos",
-    role: "Tutor de Labrador",
+      "Que coisa mas linda Larissa, grata pelo carinhos, os meninos ficaram muito bem, cheguei e os dois estavam super tranquilos. Obrigada por tudo e até breve",
+    author: "@eloisaccarvalho",
+    role: "Tutora",
   },
   {
     quote:
-      "A PetCare foi uma mudança total para mim. Os pet sitters são confiáveis, carinhosos e realmente amam o que fazem. Tenho paz de espírito sabendo que meus gatos estão bem cuidados.",
-    author: "Ana Beatriz",
-    role: "Tutora de 2 Gatos",
+      "❤️ Gostaria de agradecer a Larissa, pelos cuidados com a minha 'Pituquinha 🐶 ou oficialmente Belinha'! Viajar sempre foi a nossa preocupação, com quem deixar a minha cachorra e saber que ela está sendo tratada com amor, mas tive a grata satisfação e tranquilidade, quando deixei com você Larissa, eu era presenteado por várias vezes durante o dia com fotos ou vídeos da Belinha e era notório que ela estava muito feliz e isso resultou em uma viagem tranquila e agradável, sem preocupações!! Obrigado Larissa!!!!!",
+    author: "DELMA",
+    role: "Tutora de Belinha",
   },
 ];
 
