@@ -24,8 +24,8 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-24 bg-background">
-      <div className="container">
+    <section id="testimonials" className="py-8 px-4 md:px-8 bg-background">
+      <div className="bg-background py-16 md:py-24 px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -33,16 +33,18 @@ const Testimonials = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="section-badge">DEPOIMENTOS</span>
-          <h2 className="section-title">
+          <span className="text-secondary font-semibold tracking-[0.2em] text-sm mb-4 block uppercase">
+            DEPOIMENTOS
+          </span>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             O que nossos clientes dizem
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Conheça as experiências de tutores que confiaram seus companheiros peludos à PetCare. Descubra por que eles escolhem nossos serviços confiáveis e carinhosos.
+            Conheça as experiências de tutores que confiaram seus pets à PetCare.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.author}
@@ -50,7 +52,7 @@ const Testimonials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="testimonial-card"
+              className="bg-primary rounded-2xl p-8"
             >
               <Quote className="h-10 w-10 text-secondary mb-4" />
               <h3 className="font-display text-xl font-bold text-primary-foreground mb-4">

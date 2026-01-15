@@ -26,8 +26,8 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-secondary">
-      <div className="container">
+    <section id="services" className="py-8 px-4 md:px-8 bg-background">
+      <div className="bg-secondary rounded-2xl py-16 md:py-24 px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -35,12 +35,14 @@ const Services = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="section-badge text-primary">NOSSOS SERVIÇOS</span>
-          <h2 className="section-title text-secondary-foreground">
+          <span className="text-primary font-semibold tracking-[0.2em] text-sm mb-4 block uppercase">
+            NOSSOS SERVIÇOS
+          </span>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-secondary-foreground mb-4">
             Soluções sob medida para seus amigos peludos
           </h2>
           <p className="text-secondary-foreground/80 max-w-2xl mx-auto text-lg">
-            Oferecemos uma gama completa de serviços especializados em cuidados pet. Nossa equipe é dedicada a garantir o bem-estar e felicidade dos seus companheiros 24/7.
+            Oferecemos uma gama completa de serviços especializados em cuidados pet.
           </p>
         </motion.div>
 
@@ -52,7 +54,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="service-card group"
+              className="bg-card rounded-2xl overflow-hidden shadow-lg group"
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img

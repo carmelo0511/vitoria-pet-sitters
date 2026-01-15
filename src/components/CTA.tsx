@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const CTA = () => {
   return (
-    <section className="py-24 bg-primary">
-      <div className="container">
+    <section className="py-8 px-4 md:px-8 bg-background">
+      <div className="bg-primary rounded-2xl py-16 md:py-24 px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -12,16 +12,16 @@ const CTA = () => {
           transition={{ duration: 0.6 }}
           className="text-center max-w-3xl mx-auto"
         >
-          <span className="section-badge text-secondary">
+          <span className="text-secondary font-semibold tracking-[0.2em] text-sm mb-4 block uppercase">
             CUIDE DO SEU PET
           </span>
-          <h2 className="section-title text-primary-foreground">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
             Eleve os cuidados do seu pet
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
-            Pronto para dar ao seu amigo peludo o melhor cuidado possível? A PetCare Vitória oferece serviços premium adaptados às suas necessidades. Seja um passeador, pet sitter ou adestrador, temos tudo coberto. Entre em contato agora para agendar uma consulta.
+            Pronto para dar ao seu amigo peludo o melhor cuidado possível? A PetCare Vitória oferece serviços premium adaptados às suas necessidades.
           </p>
-          <Button variant="cta" size="lg">
+          <Button variant="cta" size="lg" className="rounded-full">
             Entre em Contato
           </Button>
         </motion.div>
