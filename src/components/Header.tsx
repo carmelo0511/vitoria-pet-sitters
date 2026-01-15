@@ -10,35 +10,39 @@ const Header = () => {
     { label: "Início", href: "#hero" },
     { label: "Serviços", href: "#services" },
     { label: "Sobre", href: "#about" },
-    { label: "Depoimentos", href: "#testimonials" },
     { label: "Contato", href: "#contact" },
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-sm border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background">
       <div className="container mx-auto flex items-center justify-between py-4">
+        {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
-          <PawPrint className="h-8 w-8 text-secondary transition-transform group-hover:rotate-12" />
+          <PawPrint className="h-7 w-7 text-secondary transition-transform group-hover:rotate-12" />
           <span className="font-display text-2xl font-bold text-foreground">
             PetCare
           </span>
         </a>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8">
+        {/* Desktop Navigation - Centered */}
+        <nav className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
-              className="text-muted-foreground hover:text-foreground font-medium transition-colors"
+              className="text-foreground hover:text-secondary font-medium transition-colors"
             >
               {link.label}
             </a>
           ))}
         </nav>
 
+        {/* CTA Button */}
         <div className="hidden md:block">
-          <Button variant="cta" size="lg">
+          <Button 
+            variant="cta" 
+            className="rounded-full px-6 py-2 font-medium"
+          >
             Agende Agora
           </Button>
         </div>
@@ -64,20 +68,20 @@ const Header = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-card border-b border-border overflow-hidden"
+            className="md:hidden bg-background overflow-hidden"
           >
             <nav className="container flex flex-col py-4 gap-4">
               {navLinks.map((link) => (
                 <a
                   key={link.label}
                   href={link.href}
-                  className="text-muted-foreground hover:text-foreground font-medium py-2 transition-colors"
+                  className="text-foreground hover:text-secondary font-medium py-2 transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
                 </a>
               ))}
-              <Button variant="cta" size="lg" className="mt-2">
+              <Button variant="cta" className="rounded-full mt-2">
                 Agende Agora
               </Button>
             </nav>
