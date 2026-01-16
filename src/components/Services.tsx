@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import dogWalkingImg from "@/assets/dog-walking.jpg";
-import petSittingImg from "@/assets/pet-sitting.jpg";
+import petSittingImg from "@/assets/pet-sitting.avif";
 import trainingImg from "@/assets/training.jpg";
 
 const services = [
