@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import larissaCatImg from "@/assets/larissa-cat.jpg";
 import petSittingImg from "@/assets/pet-sitting.avif";
-import trainingImg from "@/assets/training.jpg";
+import trainingImg from "@/assets/tratamento-especializado.jpg";
 const services = [{
   title: "Pet Sitting",
   description: "Cuidados no conforto do seu lar para cães, gatos e pets não convencionais. Vou até sua casa cuidar do seu bichinho com atenção e carinho.",
