@@ -44,9 +44,15 @@ const Hero = () => {
               <span className="font-medium">Atendimento: Vitória, Vila Velha e Cariacica</span>
             </p>
 
-            <Button variant="cta" className="rounded-full px-8 py-3">
-              Entre em Contato
-            </Button>
+            <a 
+              href="https://wa.me/5527999999999" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button variant="cta" className="rounded-full px-8 py-3">
+                Entre em Contato
+              </Button>
+            </a>
           </motion.div>
         </div>
       </div>

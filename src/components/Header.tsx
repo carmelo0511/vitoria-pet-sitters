@@ -39,12 +39,18 @@ const Header = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button 
-            variant="cta" 
-            className="rounded-full px-6 py-2 font-medium"
+          <a 
+            href="https://wa.me/5527999999999" 
+            target="_blank" 
+            rel="noopener noreferrer"
           >
-            Agende Agora
-          </Button>
+            <Button 
+              variant="cta" 
+              className="rounded-full px-6 py-2 font-medium"
+            >
+              Agende Agora
+            </Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -81,9 +87,15 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="cta" className="rounded-full mt-2">
-                Agende Agora
-              </Button>
+              <a 
+                href="https://wa.me/5527999999999" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button variant="cta" className="rounded-full mt-2">
+                  Agende Agora
+                </Button>
+              </a>
             </nav>
           </motion.div>
         )}
