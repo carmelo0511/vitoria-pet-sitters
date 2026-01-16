@@ -77,9 +77,7 @@ const About = () => {
         }} transition={{
           duration: 0.6
         }} className="relative">
-            <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-              <img src={vitoriaImg} alt="Vista aérea de Vitória, ES - Convento da Penha" className="w-full h-full object-cover" />
-            </div>
+            
           </motion.div>
         </div>
       </div>
