@@ -21,9 +21,15 @@ const CTA = () => {
           <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
             Para mais informações sobre meus serviços de Pet Sitting, entre em contato via WhatsApp ou Instagram. Estou pronta para cuidar do seu bichinho no conforto do seu lar!
           </p>
-          <Button variant="cta" size="lg" className="rounded-full">
-            Entre em Contato
-          </Button>
+          <a 
+            href="https://wa.me/5527992632281" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button variant="cta" size="lg" className="rounded-full">
+              Entre em Contato
+            </Button>
+          </a>
         </motion.div>
       </div>
     </section>
