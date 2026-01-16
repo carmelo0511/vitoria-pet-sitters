@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="hero" className="pt-24 pb-8 px-4 md:px-8 bg-background">
       <div
-        className="relative min-h-[600px] md:min-h-[700px] rounded-2xl overflow-hidden flex items-center"
+        className="relative min-h-[450px] md:min-h-[500px] rounded-2xl overflow-hidden flex items-center"
         style={{ 
           backgroundImage: `linear-gradient(135deg, hsl(175, 85%, 23%) 0%, hsl(175, 60%, 35%) 100%), url(${heroBg})`, 
           backgroundSize: 'cover', 
