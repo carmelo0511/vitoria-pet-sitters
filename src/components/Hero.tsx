@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import heroBg from "@/assets/dog-walking.jpg";
+import heroBg from "@/assets/hero-larissa-dog.jpg";
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
         style={{ 
           backgroundImage: `linear-gradient(135deg, hsl(175, 85%, 23%) 0%, hsl(175, 60%, 35%) 100%), url(${heroBg})`, 
           backgroundSize: 'cover', 
-          backgroundPosition: 'center 30%',
+          backgroundPosition: 'center 20%',
           backgroundBlendMode: 'overlay'
         }}
       >
