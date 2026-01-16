@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import heroBg from "@/assets/larissa-cat.jpg";
+import heroBg from "@/assets/dog-walking.jpg";
 
 const Hero = () => {
   return (
