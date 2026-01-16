@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import dogWalkingImg from "@/assets/dog-walking.jpg";
+import larissaCatImg from "@/assets/larissa-cat.jpg";
 import petSittingImg from "@/assets/pet-sitting.avif";
 import trainingImg from "@/assets/training.jpg";
 const services = [{
@@ -9,7 +9,7 @@ const services = [{
 }, {
   title: "Relatórios Completos",
   description: "Relatórios diários com áudio, fotos e vídeos para você acompanhar como está seu pet mesmo longe de casa.",
-  image: dogWalkingImg
+  image: larissaCatImg
 }, {
   title: "Tratamento Especializado",
   description: "Como Médica Veterinária de formação, ofereço tratamento especializado e cuidados adaptados às necessidades do seu pet.",
