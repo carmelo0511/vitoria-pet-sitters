@@ -10,7 +10,7 @@ const Hero = () => {
         style={{ 
           backgroundImage: `linear-gradient(135deg, hsl(175, 85%, 23%) 0%, hsl(175, 60%, 35%) 100%), url(${heroBg})`, 
           backgroundSize: 'cover', 
-          backgroundPosition: 'top center',
+          backgroundPosition: 'center 30%',
           backgroundBlendMode: 'overlay'
         }}
       >
