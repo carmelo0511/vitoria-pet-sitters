@@ -45,7 +45,7 @@ const Hero = () => {
             </p>
 
             <a 
-              href="https://wa.me/5527999999999" 
+              href="https://wa.me/5527992632281" 
               target="_blank" 
               rel="noopener noreferrer"
             >

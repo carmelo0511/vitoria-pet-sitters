@@ -40,7 +40,7 @@ const Header = () => {
         {/* CTA Button */}
         <div className="hidden md:block">
           <a 
-            href="https://wa.me/5527999999999" 
+            href="https://wa.me/5527992632281" 
             target="_blank" 
             rel="noopener noreferrer"
           >
@@ -88,7 +88,7 @@ const Header = () => {
                 </a>
               ))}
               <a 
-                href="https://wa.me/5527999999999" 
+                href="https://wa.me/5527992632281" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
