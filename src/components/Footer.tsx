@@ -35,9 +35,15 @@ const Footer = () => {
             <p className="text-card/70 leading-relaxed mb-6 max-w-md">
               Pet Sitter profissional - Cuidados no conforto do seu lar. Médica Veterinária com mais de 10 anos de experiência.
             </p>
-            <Button variant="cta" size="lg" className="rounded-full">
-              Agendar Visita
-            </Button>
+            <a 
+              href="https://wa.me/5527992632281" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button variant="cta" size="lg" className="rounded-full">
+                Agendar Visita
+              </Button>
+            </a>
           </div>
 
           {/* Quick Links */}
