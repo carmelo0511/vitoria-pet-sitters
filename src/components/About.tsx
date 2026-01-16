@@ -4,7 +4,7 @@ import { PawPrint } from "lucide-react";
 // Import your personal photos - replace with actual image paths when you add them
 // import larissaWithHusky from "@/assets/larissa-husky.jpg";
 // import larissaWithCat from "@/assets/larissa-cat.jpg";
-import happyDogImg from "@/assets/happy-dog.jpg";
+import vitoriaImg from "@/assets/vitoria-city.jpg";
 
 const features = [
   "Cuidados no conforto do seu lar para cães, gatos e pets não convencionais.",
@@ -77,8 +77,8 @@ const About = () => {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src={happyDogImg}
-                alt="Cachorro feliz em um campo de flores"
+                src={vitoriaImg}
+                alt="Vista aérea de Vitória, ES - Convento da Penha"
                 className="w-full h-full object-cover"
               />
             </div>
