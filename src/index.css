@@ -23,11 +23,11 @@
     --popover-foreground: 180 10% 15%;
 
     /* Teal primary - vibrant teal matching promotional flyer */
-    --primary: 170 56% 39%;
+    --primary: 168 52% 51%;
     --primary-foreground: 0 0% 100%;
 
     /* Teal secondary - lighter teal */
-    --secondary: 170 50% 50%;
+    --secondary: 168 52% 58%;
     --secondary-foreground: 0 0% 100%;
 
     /* Cream accent for decorative elements */
@@ -51,7 +51,7 @@
     /* Custom tokens */
     --hero-overlay: 200 25% 15%;
     --testimonial-bg: 45 90% 62%;
-    --section-teal: 170 56% 39%;
+    --section-teal: 168 52% 51%;
     --chart-1: 41 22.2% 64.6%;
     --chart-2: 185 11.8% 60%;
     --chart-3: 227 7% 39.8%;
