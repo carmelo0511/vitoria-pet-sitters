@@ -17,7 +17,7 @@ const services = [{
 }];
 const Services = () => {
   return <section id="services" className="py-8 px-4 md:px-8 bg-background">
-      <div className="bg-secondary rounded-2xl py-16 md:py-24 px-6 md:px-12">
+      <div className="bg-secondary/10 rounded-2xl py-16 md:py-24 px-6 md:px-12 border border-primary/10">
         <motion.div initial={{
         opacity: 0,
         y: 20
@@ -32,13 +32,13 @@ const Services = () => {
           <span className="text-primary font-semibold tracking-[0.2em] text-sm mb-4 block uppercase">
             NOSSOS SERVIÇOS
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-secondary-foreground mb-4">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Soluções sob medida para seus amigos peludos
           </h2>
-          <p className="text-secondary-foreground/80 max-w-2xl mx-auto text-lg mb-4">
+          <p className="text-muted-foreground max-w-2xl mx-auto text-lg mb-4">
             Oferecemos uma gama completa de serviços especializados em cuidados pet.
           </p>
-          <p className="text-secondary-foreground/70 text-sm flex items-center justify-center gap-2">
+          <p className="text-muted-foreground text-sm flex items-center justify-center gap-2">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -59,7 +59,7 @@ const Services = () => {
         }} transition={{
           duration: 0.6,
           delay: index * 0.1
-        }} className="bg-card rounded-2xl overflow-hidden shadow-lg group">
+        }} className="bg-card rounded-2xl overflow-hidden shadow-lg group border border-primary/10">
               <div className="aspect-[4/3] overflow-hidden">
                 <img src={service.image} alt={service.title} className="w-full h-full transition-transform duration-500 group-hover:scale-105 object-contain" />
               </div>
