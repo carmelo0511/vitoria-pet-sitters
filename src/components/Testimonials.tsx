@@ -33,7 +33,7 @@ const Testimonials = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-secondary font-semibold tracking-[0.2em] text-sm mb-4 block uppercase">
+          <span className="text-primary font-semibold tracking-[0.2em] text-sm mb-4 block uppercase">
             DEPOIMENTOS
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
@@ -52,16 +52,16 @@ const Testimonials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="bg-primary rounded-2xl p-8"
+              className="bg-card rounded-2xl p-8 border border-primary/15 shadow-sm"
             >
-              <Quote className="h-10 w-10 text-secondary mb-4" />
-              <h3 className="font-display text-xl font-bold text-primary-foreground mb-4">
+              <Quote className="h-10 w-10 text-primary mb-4" />
+              <h3 className="font-display text-xl font-bold text-foreground mb-4">
                 {testimonial.author}
               </h3>
-              <p className="text-primary-foreground/90 leading-relaxed mb-6">
+              <p className="text-muted-foreground leading-relaxed mb-6">
                 {testimonial.quote}
               </p>
-              <p className="text-sm font-semibold uppercase tracking-wide text-primary-foreground/70">
+              <p className="text-sm font-semibold uppercase tracking-wide text-primary">
                 {testimonial.role}
               </p>
             </motion.div>
